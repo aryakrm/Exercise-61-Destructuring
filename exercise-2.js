@@ -10,10 +10,8 @@ const person = {
 // const lastName = person.lastName;
 // const age = person.age;
 
-// console.log(id, firstName, lastName, age);
+const { id, firstName, lastName, age } = person;
 
-console.log(Object.entries(person));
-for (let entry of Object.entries(person)) {
-  let [key, value] = entry;
-  console.log(entry[1]);
-}
+ console.log(id, firstName, lastName, age);
+
+
